@@ -42,3 +42,5 @@ fact_engagement = filtered_engagements.groupby(['EmployeeID', 'ModuleID', 'Cours
     'TimeSpent': 'sum',
     'IsCompleted': 'max'  # Assuming you want the max value of IsCompleted for the fact
 }).reset_index()
+
+which department has count enrolled course engage more time
